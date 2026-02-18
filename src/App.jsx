@@ -1,11 +1,11 @@
-
+import NavBar from "./components/NavBar"
 
 function App() {
 
   return (
-    <>
-    <h1 className="bg-amber-900">Hello Positive Us</h1>
-    </>
+    <div className="font-sans m-2">
+    <NavBar />
+    </div>
   )
 }
 
