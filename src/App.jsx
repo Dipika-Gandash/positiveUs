@@ -4,6 +4,7 @@ import Companies from "./sections/Companies"
 import Services from "./sections/Services"
 import CallToAction from "./sections/CallToAction"
 import CaseStudies from "./sections/CaseStudies"
+import WorkingProcess from "./sections/WorkingProcess"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <Services />
     <CallToAction />
     <CaseStudies />
+    <WorkingProcess />
     </div>
   )
 }
