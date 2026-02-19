@@ -3,6 +3,7 @@ import Hero from "./sections/Hero"
 import Companies from "./sections/Companies"
 import Services from "./sections/Services"
 import CallToAction from "./sections/CallToAction"
+import CaseStudies from "./sections/CaseStudies"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Companies />
     <Services />
     <CallToAction />
+    <CaseStudies />
     </div>
   )
 }

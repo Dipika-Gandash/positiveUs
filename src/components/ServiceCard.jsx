@@ -37,7 +37,7 @@ const ServiceCard = ({ card, idx }) => {
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 p-8 sm:p-12 items-center">
         <div className="flex flex-col justify-end lg:justify-between h-full">
-          <h3 className="flex flex-col mt-2">
+          <h3 className="flex flex-col mt-2 md:text-xl font-semibold">
             <span
               className={`${titleBg} px-2 py-1 w-fit rounded-md font-light`}
             >
