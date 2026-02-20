@@ -7,6 +7,7 @@ import CaseStudies from "./sections/CaseStudies"
 import WorkingProcess from "./sections/WorkingProcess"
 import Team from "./sections/Team"
 import Testimonials from "./sections/Testimonials"
+import ContactUs from "./sections/ContactUs"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
     <WorkingProcess />
     <Team />
     <Testimonials />
+    <ContactUs />
     </div>
   )
 }
