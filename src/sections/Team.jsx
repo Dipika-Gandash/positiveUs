@@ -73,6 +73,18 @@ const Team = () => {
             <TeamCard key={idx} data={data} />
           ))}
         </div>
+        <div className="flex justify-center sm:justify-end mt-10">
+             <button
+          className="bg-zinc-900 text-white px-12 md:px-20 py-5 rounded-xl
+  transition-all duration-300 ease-out
+  hover:scale-105
+  hover:shadow-2xl
+  hover:bg-lime-300 hover:text-black"
+        >
+          See all team
+        </button>
+        </div>
+       
       </div>
     </section>
   );

@@ -6,6 +6,7 @@ import CallToAction from "./sections/CallToAction"
 import CaseStudies from "./sections/CaseStudies"
 import WorkingProcess from "./sections/WorkingProcess"
 import Team from "./sections/Team"
+import Testimonials from "./sections/Testimonials"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
     <CaseStudies />
     <WorkingProcess />
     <Team />
+    <Testimonials />
     </div>
   )
 }
