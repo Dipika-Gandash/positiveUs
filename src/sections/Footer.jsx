@@ -11,9 +11,9 @@ const Footer = () => {
             />
 
             <ul className="flex flex-col md:flex-row gap-3 md:gap-6 font-light text-[18px]">
-              <li className="cursor-pointer hover:text-lime-300">About Us</li>
-              <li className="cursor-pointer hover:text-lime-300">Services</li>
-              <li className="cursor-pointer hover:text-lime-300">Use Cases</li>
+             <a href="#about"> <li className="cursor-pointer hover:text-lime-300">About Us</li></a>
+             <a href="#services"> <li className="cursor-pointer hover:text-lime-300">Services</li></a>
+            <a href="#useCases">  <li className="cursor-pointer hover:text-lime-300">Use Cases</li></a>
               <li className="cursor-pointer hover:text-lime-300">Pricing</li>
               <li className="cursor-pointer hover:text-lime-300">Blog</li>
             </ul>

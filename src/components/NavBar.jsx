@@ -11,9 +11,9 @@ const NavBar = () => {
         </div>
 
           <ul className="hidden md:flex gap-6 font-medium text-[18px]">
-            <li className="cursor-pointer ">About Us</li>
-            <li className="cursor-pointer">Services</li>
-            <li className="cursor-pointer">Use Cases</li>
+           <a href="#about"> <li className="cursor-pointer ">About Us</li></a>
+           <a href="#services"> <li className="cursor-pointer">Services</li></a>
+           <a href="#useCases"><li className="cursor-pointer">Use Cases</li></a> 
             <li className="cursor-pointer">Pricing</li>
             <li className="cursor-pointer">Blog</li>
           </ul>

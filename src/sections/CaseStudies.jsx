@@ -21,7 +21,7 @@ const CaseStudies = () => {
 ];
 
   return (
-    <section className='p-5 flex justify-center overflow-hidden mt-11'>
+    <section id="useCases" className='p-5 flex justify-center overflow-hidden mt-11'>
       <div className="bg-white max-w-7xl mx-auto w-full">
         <div className='flex flex-col items-center gap-10 sm:flex-row mb-20'>
           <h1 className='bg-lime-300 text-center sm:text-left text-3xl sm:text-4xl'>Case Studies</h1>
