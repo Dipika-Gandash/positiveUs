@@ -4,3 +4,29 @@
     --font-display: "Funnel Display", sans-serif;
   --font-sans: "Funnel Sans", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #84cc16; 
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3e635; 
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #84cc16 #111;
+}
